@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
+
+ <style>
 /* Reset and base styles */
 * {
     margin: 0;
@@ -26,10 +27,9 @@ header {
 }
 
 h1 {
-    font-family: Bernard MT Condensed;
     font-size: 2.8em;
     margin-bottom: 10px;
-
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
 }
 
 h2 {
@@ -94,7 +94,7 @@ p {
 
 /* Button styles */
 button {
-    background-color: #4169e1; /* Royal Blue */
+    background-image: url('C:\Users\SMASH\Desktop\Website\scl1.jpg')
     color: white;
     border: none;
     padding: 12px 25px;
@@ -139,10 +139,10 @@ footer {
         font-size: 1.5em;
     }
 }
-	/* Style for the button-like anchor */
+     /* Style for the button-like anchor */
         .button-link {
             display: inline-block;
-			    padding: 10px 20px; /* Adjust padding as needed */
+            padding: 10px 20px; /* Adjust padding as needed */
             background-color: white; /* Button background color */
             color: blue; /* Text color */
             text-decoration:none; /* Remove underline */
@@ -188,7 +188,8 @@ footer {
 			a:hover::after{
 			transform:scaleX(1);
 			}
-	</style>
+    </style>
+
   <title>Borrow Book</title>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -270,6 +271,6 @@ footer {
         .catch(error => console.error('Error:', error));
     }
   </script>
-<a href="ahs.html"><button style="position: absolute; left: 0; height:200px; width:500px"><h1>Return to Main Website</h1></button></a>
+<a href="index.html"><button style="position: absolute; left: 0; height:200px; width:500px"><h1>Return to Main Website</h1></button></a>
 </body>
 </html>
